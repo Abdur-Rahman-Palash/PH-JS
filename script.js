@@ -1,4 +1,3 @@
-
 var apple = 200;
 var orange = 300;
 var shopKeeper=800;
