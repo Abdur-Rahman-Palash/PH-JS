@@ -1,6 +1,6 @@
 // 1.
 let burger = 500;
-if(burger < 600 ){
+if(burger < 300 ){
     console.log("free coke")
 }
 else{
@@ -110,3 +110,23 @@ Ticket fare Calculator
     - Senior citizens (age >= 60) gets a 15% Discount
     - Otherwise Regular ticket fare 800 tk
 */
+let ticketFare = 800;
+let age = 20;
+if(age < 10){
+    console.log("free")
+}
+else if(age >= 48){
+// 50% discount
+let discount = ticketFare * 50 / 100;
+let payAmount = ticketFare - discount;
+console.log(payAmount);
+}
+else if(age <= 60){
+    // 15% discount
+    let discount = ticketFare * 15 / 100;
+let payAmount = ticketFare - discount;
+console.log(payAmount);
+}
+else{
+    console.log("Regular ticket fare 800 tk");
+}
