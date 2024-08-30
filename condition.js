@@ -7,8 +7,8 @@ else{
     console.log("30tk")
 }
 // 2.
-let weight = 80;
-let height = 2;
+let weight = 100;
+let height = 1.5;
 let BMI =  weight / (height * height);
 if( BMI < 18.5){
     console.log(" you are underweight.")
