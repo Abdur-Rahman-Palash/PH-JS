@@ -19,7 +19,9 @@ Remove the last tourist destination you have added
 display the final array as output */
 var touristDestinations = ["Coxsbazar", "Bandarban", "Saintmartin"];
 console.log(touristDestinations);
-touristDestinations.push("Rangamati", "Chittagong","Sylhet");
+touristDestinations.push("Rangamati");
+touristDestinations.push("Chittagong");
+touristDestinations.push("Sylhet");
 touristDestinations.pop();
 console.log(touristDestinations);
 
