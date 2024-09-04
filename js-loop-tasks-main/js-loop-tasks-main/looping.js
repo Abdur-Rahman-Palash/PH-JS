@@ -20,4 +20,17 @@ console.log(`Even numbers in an array are: ${even}`);
 
 
 
-var number = ['Tom', 'Tim', 'Tin', 'Tik'];
+
+
+const cartoons = ['Tom', 'Tim', 'Tin', 'Tik'];
+let result = "";
+for (const cartoon of cartoons) {
+    result += cartoon; 
+}
+console.log(result); 
+
+
+
+const sentence = 'I am a hard working person';
+const reversedSentence = sentence.split(" ").reverse(" ").join(' ');
+console.log(reversedSentence);
