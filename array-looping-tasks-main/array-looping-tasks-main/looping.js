@@ -1,9 +1,10 @@
 const colors = ['red', 'blue', 'green', 'yellow', 'orange']
+const reversedColors= [];
 for(let i = colors.length-1; i>=0; i--){
     const color = colors[i];
-console.log(color);
+    reversedColors.push(color);
 }
-
+console.log(reversedColors);
 
 
 
@@ -20,5 +21,3 @@ console.log(`Even numbers in an array are: ${even}`);
 
 
 var number = ['Tom', 'Tim', 'Tin', 'Tik'];
-let concatNumber = number.concat(" ");
-console.log(concatNumber);
