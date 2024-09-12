@@ -34,3 +34,6 @@ console.log(result);
 const sentence = 'I am a hard working person';
 const reversedSentence = sentence.split(" ").reverse(" ").join(' ');
 console.log(reversedSentence);
+
+
+
