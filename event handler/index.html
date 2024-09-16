@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- part-1 -->
+    <h1 id="handle-text">JavaScript event handler</h1>
+    <button onclick="handleClick()">handle click</button>
+     <!-- part-2 -->
+    <h1 id="another-text">another part is going on</h1>
+    <button id="another">Another part</button>
+     <!-- part-3 -->
+    <button onclick="console.log('first time try')">click me</button>
+    <button onclick="document.body.style.backgroundColor='red'">click Red</button>
+     <!-- part-4 -->
+    <button onclick="makeYellow()">click Yellow</button>
+     <!-- part-5 -->
+    <button id="orange">click orange</button>
+     <!-- part-6 -->
+    <button id="pink">click pink</button>
+     <!-- part-7 -->
+    <div id="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis!</p>
+        <p>Repudiandae aliquid pariatur fuga nisi temporibus quia dicta explicabo?</p>
+        <p>Quidem excepturi quia explicabo? Accusantium cupiditate esse necessitatibus odio.</p>
+        <p>Molestias optio ducimus impedit perferendis aliquam voluptatum debitis ratione?</p>
+    </div>
+        <textarea name="" id="new-comment" cols="30" rows="10"></textarea> <br><br>
+        <button id="post">Post</button>
+        <!-- part12 -->
+    <h1 id="secret-info">My Secret Info</h1>
+    <input type="text" id="delete-confirm" placeholder="please type delete">
+    <button id="btn-delete" disabled>Delete</button>
+    <!-- part-8 -->
+    <script src="./event.js"></script>
+    <!-- part-9 -->
+    <script>
+        <!-- part-10 -->
+        function makeYellow(){
+            document.body.style.backgroundColor='yellow';
+        }
+//<!-- part-11 -->
+        function handleClick(){
+            const handleStatus = document.getElementById('handle-text');
+            handleStatus.innerText="handle has been changed";
+        }
+    </script>
+</body>
+</html>
