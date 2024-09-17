@@ -23,6 +23,19 @@ content.appendChild(p);
 commentBox.value = '';
 })
 // part05
-document.getElementById('btn-delete').addEventListener('keyup', function(event){
+document.getElementById('delete-confirm').addEventListener('keyup', function(event){
     const text = event.target.value;
+    const deleteButton = document.getElementById('btn-delete');
+    if(text === 'delete'){
+        deleteButton.removeAttribute('disabled');
+    }
+    else{
+        deleteButton.setAttribute('disabled', true);
+    }
+})
+// part06
+
+document.getElementById('btn-delete').addEventListener('click', function(){
+    const secret = document.getElementById('secret-info');
+    secret.style.display = 'none';
 })
